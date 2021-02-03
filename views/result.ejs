@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8">
+    <title>weather-api-major</title>
+  </head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <body class="container">
+
+    <div class="box">
+
+      <div class="firstLine">
+      <img src="/images/rain.png" class="headImage" alt="">weatherLive <br></div>
+        <div class="">
+          current temprature is <%= resTemp %> deg C.
+        </div>
+      <img src="<%= resIcon %>" alt="weatherImage">
+      <div class="lastLine">
+        <%= resDescription %>
+      </div>
+  <a href="/"> <button class="btn btn-lg btn-outline-light" type="button" name="button">go back</button></a>
+    </div>
+
+  </body>
+</html>
